@@ -150,8 +150,8 @@ export default class Dashboard extends Component {
   }
 
   onNotif(notif:any) {
-    this.notif.remoteNotif('','','',notif.title,notif.message,'sample.mp3');
-    //Alert.alert(notif.title, notif.message);
+    //this.notif.remoteNotif('','','',notif.title,notif.message,'sample.mp3');
+    Alert.alert(notif.title, notif.message);
   }
 
   handlePerm(perms:any) {
