@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tuto-notification",
-    "slug": "tuto-notification",
+    "name": "danisq",
+    "slug": "danisq",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "br.com.danishq"
     },
     "web": {
       "bundler": "metro",
