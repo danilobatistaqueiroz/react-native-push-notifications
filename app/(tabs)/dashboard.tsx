@@ -25,8 +25,8 @@ export default class Dashboard extends Component {
     this.state = {};
 
     this.notif = new NotifService(
-      this.onRegister.bind(this),
-      this.onNotif.bind(this),
+      //this.onRegister.bind(this),
+      //this.onNotif.bind(this),
     );
   }
 

@@ -22,7 +22,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <Button title={'Click Here'} onPress={LocalNotification} />
-
+        <RemoteNotification />
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
